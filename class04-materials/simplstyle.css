@@ -30,7 +30,7 @@ ul {
 }
 li {
     list-style: none;
-    display: inline-block;
+    display: inline;
 }
 li:not(:first-child):before {
     content: " | ";
