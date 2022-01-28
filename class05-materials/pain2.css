@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+header, footer {
+    height: 300px;
+    border: 1px solid black;
+}
+
+.rowtwo {
+    height: 300px;
+    width: 100%;
+    border: 1px solid black;
+}
+.rowtwosec {
+    height: 300px;
+    width: 33.333%;
+    border: 1px solid black;
+    float: left;
+}
+.rowthree {
+    height: 300px;
+    width: 100%;
+    border: 1px solid black;
+}
+.rowthreesec1 {
+    height: 300px;
+    width: 33.333%;
+    border: 1px solid black;
+    float: left;
+}
+.rowthreesec2 {
+    height: 300px;
+    width: 66.666%;
+    border: 1px solid black;
+    float: left;
+}
