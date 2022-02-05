@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+header, footer {
+    height: 300px;
+    border: 1px solid black;
+}
+
+.rowtwo {
+    height: 300px;
+    width: 100%;
+}
+@media screen and (max-width: 600px) {
+    .rowtwosec {
+        background: blue;
+    }
+    section {
+        background: red;
+    }
+    footer {
+        background: black;
+    }
+}
+@media (min-width: 601px) and (max-width: 1000px) {
+    header, footer {
+        background: green;
+        border: 5px solid gold;
+    }
+    .rowtwo {
+        display: none;
+    }
+}
+.rowtwosec {
+    height: 300px;
+    width: 33.333%;
+    border: 1px solid black;
+    float: left;
+}
+.rowthree {
+    height: 300px;
+    width: 100%
+}
+.rowthreesec {
+    height: 300px;
+    width: 50%;
+    border: 1px solid black;
+    float: left;
+}
