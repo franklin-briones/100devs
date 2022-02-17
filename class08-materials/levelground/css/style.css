@@ -1,0 +1,209 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(22,32,42);
+}
+ul * {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+header {
+    height: 100px;
+    background-color: rgb(102,118,138);
+}
+/* first third section */
+nav .firstnav {
+    float: left;
+    width: 33.33%;
+    height: 100px;
+}
+nav .firstnav ul * {
+    float: left;
+    padding: 10px;
+}
+/*second third section*/
+nav .logotop {
+    float: left;
+    width: 33.33%;
+    height: 100px;
+}
+nav img {
+    padding-top: 5%;
+    padding: 0 50%;
+    padding-top: 5%;
+}
+/*third third section*/
+nav .donate {
+    float: right;
+    width: 33.34%;
+    height: 100px;
+    padding-top: 2%;
+}
+nav .donate a {
+    background: white;
+    color: rgb(102,118,138);
+    border-radius: 5px;
+    margin-left: 75%;
+    padding: 3px 6px;
+    height: 100px;
+}
+
+.topsection {
+    background-color: rgb(102,118,138);
+    text-align: center;
+    padding: .25% 5%;
+    height: 500px;
+}
+.topsection h1 {
+    font-size: 70px;
+}
+.topsection p {
+    font-size: 25px;
+}
+.why {
+    background: white;
+    text-align: center;
+    padding: 10% 25%;
+    height: 500px;
+}
+.why * {
+    color: black;
+}
+.why h2 {
+    font-size: 3rem;
+}
+.why p {
+    font-size: 1.3rem;
+}
+.middle {
+    width: 100%;
+    height: 600px;
+}
+.middle * {
+    background: rgb(219,223,226);
+    color: black;
+    text-align: center;
+}
+.middle section {
+    float: left;
+    width: 50%;
+    padding: 8%;
+}
+.middle h4 {
+    padding-top: 50px;
+    font-size: 30px;
+}
+.middle section > section {
+    background: rgb(102,118,138);
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.middle p {
+    padding: 0% 5% 8% 0%;
+}
+.middle a {
+    border: 1px solid black;
+    padding: 3% 12%;
+}
+.volunteer {
+    display: block;
+    background: white;
+    color: black;
+    text-align: center;
+    height: 350px;
+}
+.volunteer h3 {
+    padding-top: 5%;
+    font-size: 25px;
+}
+.volunteer p {
+    padding: 0% 30%;
+    margin-bottom: 5%;
+}
+.volunteer a {
+    border: 1px solid black;
+    padding: 1% 5%;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+footer {
+    background: rgb(22,32,42);
+    height: 250px;
+    width: 100%;
+}
+footer .left {
+    float: left;
+    width: 50%;
+    padding-left: 2%;
+}
+footer .left img {
+    padding: 3% 2%;
+}
+footer .left section span {
+    float: left;
+    width: 100%;
+    color: rgb(102,118,138);
+    font-size: 14px;
+}
+footer .left section ul {
+    padding-left: 0px;
+    width: 100%;
+}
+footer .left section li {
+    float: left;
+    padding: 2% 2% 4% 0%;
+}
+footer .right {
+    text-align: left;
+    padding-left: 20%;
+    float: right;
+    width: 50%;
+}
+footer .right h6{
+    padding-left: 15%;
+}
+footer .division p{
+    float: left;
+    padding-left: 2%;
+    width: 80%;
+}
+footer .division section {
+    width: 20%;
+    padding-left: 10%;
+    float: right;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
