@@ -1,6 +1,7 @@
 /* Box Model Hack */
 * {
   box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 
 /* Clear fix hack */
@@ -20,21 +21,54 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
-body {
-
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
 }
-
-
+.middle-nav-links {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;  
+}
+.middle-nav-links li {
+  list-style: none;
+  text-decoration: none;
+  padding: 5px;
+}
+ul * { 
+  text-decoration: none;
+  color: black;
+}
+header h3 {
+  padding: 5px 0px 0px 20px;
+  font-size: 1.5em;
+}
+header .nav-button {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(49,70,89);
+  margin: 20px;
+  width: 75px;
+  padding-left: 18px;
+  padding-top: 10px;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
+.top-section {
+  height: 400px;
+  margin-top: 40px;;
 }
-
-footer {
-
+.left-side {
+  display: flex;
+  flex-flow: column;
+  width: 50%;
+  padding-left: 30px;
+}
+.top-section img {
+  width: 50%;
+  float: right
 }
 
 /******************************************
